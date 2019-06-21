@@ -1,0 +1,18 @@
+*{
+    list-style: none;
+
+}
+body{
+    z-index: -1;
+    background-color: gray;
+
+}
+.frame{
+    height: 7234.5px;
+}
+header{
+    z-index: 1;
+    height: 95px;
+    padding: 20px 10px 15px;
+    background-color: #FF2210;
+}
