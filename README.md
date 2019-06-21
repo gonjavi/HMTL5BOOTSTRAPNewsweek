@@ -8,7 +8,7 @@ This project is based on <a href="https://www.newsweek.com/">Newsweek site</a>
 
 
 
-<h1><a href="#">Link of the live version </a></h1> 
+<h1><a href="https://raw.githack.com/gonjavi/newsweek/development/index.html">Link of the live version </a></h1> 
 
 
 
