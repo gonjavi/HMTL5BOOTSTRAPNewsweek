@@ -4,7 +4,7 @@
 }
 body{
     z-index: -1;
-    background-color: gray;
+    background-color: rgb(226, 218, 218);
 
 }
 .frame{
@@ -16,3 +16,206 @@ header{
     padding: 20px 10px 15px;
     background-color: #FF2210;
 }
+nav{
+    height: 56px;
+    padding: 15px 160px 15px 0;
+    
+    border-bottom: 1px solid #ecf0f1;
+}
+main{
+  height: 8091px;
+  padding: 20.5px;
+  margin: 0;
+  padding: 0;
+    
+}
+/*==================================================================================
+                                section top
+
+==================================================================================*/
+#top{
+    margin: 0;
+    padding: 0 30px;
+    width: 100%;
+
+}
+.bigleft{
+    height: 2549px;
+    border: 1px solid gray;
+}
+.col1{
+    width: 372.5px;
+    padding: 0 15px;
+    border: 1px solid lightcoral;
+}
+.col2{
+    width: 506px;
+    height: 1696px;
+    padding: 0 15px;
+    border: 1px solid gray;
+}
+.col3{
+    width: 370px;
+    height: 2515px;
+    padding: 0 15px 0 30px;
+    border: 1px solid brown;
+}
+
+/*==================================================================================
+                                second
+
+==================================================================================*/
+.second{
+    height:448px;
+    margin-top: 15px;
+    border: 1px solid brown;
+}
+
+.second .photo-left{
+    width: 320px;
+    height: 425px;
+    padding: 0 15px;
+    border: 1px solid blueviolet;
+}
+.second .title-photo{
+    width: 960px;
+    height: 447px;
+    padding: 0 15px;
+    border: 1px solid blue;
+}
+
+/*==================================================================================
+                               third
+
+==================================================================================*/
+
+.third{
+    height: 426px;
+    padding: 30px 15px 0;
+    margin: 0;
+    border: 1px solid brown;
+}
+.fourphotos{
+    width: 320px;
+    height: 396px;
+    border: 1px solid gray;
+
+}
+
+/*==================================================================================
+                              fourth
+
+==================================================================================*/
+
+.fourth{
+   
+    height: 820px;
+    border: 1px solid blue;
+
+}
+.photos8{
+    width: 320px;
+    height: 405px;
+    padding: 0 15px;
+    border: 1px solid brown;
+}
+
+/*==================================================================================
+                              fifth
+
+==================================================================================*/
+.fifth{
+    height: 813px;
+    border: 1px solid brown;
+}
+
+.photos3{
+    width: 426px;
+    height: 378px;
+    padding: 0 15px 40px;
+    border: 1px solid brown;
+}
+
+/*==================================================================================
+                              sixth
+
+==================================================================================*/
+.sixth{
+    
+    height: 352px;
+    border: 1px solid brown;
+}
+
+.photos2{
+    width: 426px;
+    height: 343.7px;
+    border: 1px solid brown;
+}
+
+
+
+
+/*==================================================================================
+                              subscribe
+
+==================================================================================*/
+.subscribe{
+    height: 408px;
+    border: 1px solid brown;
+    padding: 40px 0 0;
+    
+}
+
+.subscribe .right{
+    height: 328px;
+   border: 1px solid blueviolet;
+}
+.subscribe .left{
+    height: 328px;
+    border: 1px solid green;
+}
+
+.subscribe h1{
+    height: 27px;
+    padding: 0 0 11px;
+    border: 1px solid brown;
+}
+.subscribe .left .left1{
+    height: 301px;
+    padding: 30px;
+    border: 1px solid red;
+}
+
+.subscribe .right{
+    border: 1px solid green;
+}
+
+.subscribe .right .newsletter2{
+
+    height: 301px;
+    padding: 0 15px;
+    margin-bottom: 40px;
+    border: 1px solid rgb(255, 0, 242);
+}
+.subscribe .right .newsletter2 .right1{
+    width: 190px;
+    height: 301px;
+    margin:0;
+    padding:0;
+    border: 1px solid lightcoral;
+}
+.subscribe .right .newsletter2 .right2{
+    width: 206px;
+    padding: 30px;
+    border: 1px solid gray;
+}
+/*==================================================================================
+                              footer
+
+==================================================================================*/
+footer{
+    height: 198px;
+    padding: 30px;
+    border-top: 2px solid #ecf0f1;
+}
+
