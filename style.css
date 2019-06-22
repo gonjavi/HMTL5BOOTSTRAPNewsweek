@@ -10,29 +10,80 @@ body{
 .frame{
     height: 7234.5px;
 }
+/*==================================================================================
+                               Header section 
+
+==================================================================================*/
 header{
+    position: relative;
     z-index: 1;
     height: 95px;
     padding: 20px 10px 15px;
     background-color: #FF2210;
 }
+
+.logo{
+    height: 90px; 
+}
+.logo img{
+    height: 70px;
+}
+.h-left{
+    bottom: 0;
+    left: 0;
+    height: 34px;
+    color: white;
+}
+.h-right{
+    text-align: right;
+    height: 34px;
+    color: white;
+}
+.h-right a#sign-in{
+    
+    width: 80px;
+    height:34px;
+    padding: 10px 12px;
+}
+.h-right a#subscribe-top{
+    width: 128px;
+    height: 34px;
+    padding: 10px 10px 10px 12px;
+}
+/*==================================================================================
+                                Nav section 
+
+==================================================================================*/
 nav{
     height: 56px;
     padding: 15px 160px 15px 0;
     
     border-bottom: 1px solid #ecf0f1;
 }
-main{
-  height: 8091px;
-  padding: 20.5px;
-  margin: 0;
-  padding: 0;
-    
+nav ul li a{
+    width: 120px;
+    display: block;
+    height: 24;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto condensed", sans-serif;
+    font-size: 21px;
+    color: black;
+     
 }
+
+
 /*==================================================================================
                                 section top
 
 ==================================================================================*/
+main{
+    height: 8091px;
+    padding: 20.5px;
+    margin: 0;
+    padding: 0;
+      
+  }
 #top{
     margin: 0;
     padding: 0 30px;
@@ -82,6 +133,12 @@ main{
     height: 447px;
     padding: 0 15px;
     border: 1px solid blue;
+}
+.second .title-photo .photos3{
+    width: 319.98px;
+    height: 375.98px;
+    padding: 0 15px;
+    border: 1px solid grey;
 }
 
 /*==================================================================================
