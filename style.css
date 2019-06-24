@@ -106,10 +106,13 @@ nav input{
 ==================================================================================*/
 main{
     height: 8091px;
-    padding: 20.5px;
+    
     margin: 0;
     padding: 0;
     background-color: white; 
+  }
+  main.container-fluid{
+      padding:0;
   }
 #top{
     margin: 0;
@@ -122,15 +125,16 @@ main{
     border: 1px solid gray;
 }
 .bigleft h6{
-    color: rbga(3,3,3,0.4);
+    color: rgba(3,3,3,0.4);
     padding: 0 0 11px;
 }
 .col1{
-    width: 372.5px;
+    width: 28%;
     padding: 0 15px;
-    border: 1px solid lightcoral;
+    
 }
-.left picture img{
+.col1 picture img,
+.col2 picture img{
     width: 100%;
 }
 section h3 a{
@@ -152,24 +156,126 @@ article h3 a:hover{
     color: black;
 
 }
-.bigleft p{
+.col1 p,
+.col2 p{
     font-size: 14px;
+    color: #333;
 }
 
-
+/* columna dos  */
 .col2{
-    width: 506px;
+    width: 42.6%;
     height: 1696px;
     padding: 0 15px;
-    border: 1px solid gray;
+    
 }
+.middle h3{
+    font-weight: 700;
+}
+.middle-down{
+    width: 100%;
+    height: 1696px;
+    padding: 0 15px;
+}
+article.more-stories{
+    width: 100%;
+    padding: 14px 0;
+    border-top: 1px solid #ddd;
+    
+}
+article.more-stories picture{
+    width: 26.6%;
+}
+article.more-stories img{
+    width: 100%;
+    height: 90px;
+    
+}
+article.more-stories div{
+    width: 69%;
+    margin-left: 15px;
+}
+article.more-stories div h6{
+    margin: 0;
+    padding: 0 0 15px;
+}
+article.more-stories div h6 a{
+    
+    color: black;
+    font-weight: 700;
+}
+article.more-stories div h6 a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+    
+}
+/* columna tres*/
 .col3{
-    width: 370px;
+    width: 29.4%;
     height: 2515px;
-    padding: 0 15px 0 30px;
+    padding: 0 15px 0;
     border: 1px solid brown;
 }
 
+
+.right .one ul{
+    padding: 0;
+    margin: 0;
+}
+.right .one ul li#top{
+    border: none;
+    width: 100%;
+    height: 88px;
+    margin: 0;
+    padding: 0 0 10px;
+}
+.right .one ul li{
+    width: 100%;
+    height: 88px;
+    margin: 0;
+    padding: 10px 0;
+    border-top: 1px solid #555;
+}
+.right .image-head {
+    width: 18%;
+    height: 63;
+}
+.right .image-head img{
+    width: 100%;
+}
+/*letras a la derecha*/
+.right .info{
+    width: 82%;
+    padding-left: 15px;
+}
+.right .info a.title{
+    font-size: 14px;
+    font-family: "Roboto condensed", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;    
+
+}
+.right .info a.title:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+}
+.right .info a.author{
+    font-size: 14px;
+    font-family: "Roboto condensed", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    color: #555;   
+}
+
+.two{
+
+}
+.three{
+
+}
 /*==================================================================================
                                 second
 
