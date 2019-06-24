@@ -1,5 +1,6 @@
 *{
     list-style: none;
+    text-decoration: none;
 
 }
 body{
@@ -8,7 +9,9 @@ body{
 
 }
 .frame{
+    z-index: 1;
     height: 7234.5px;
+    background-color: #f4f5f6;
 }
 /*==================================================================================
                                Header section 
@@ -44,11 +47,15 @@ header{
     width: 80px;
     height:34px;
     padding: 10px 12px;
+    cursor: pointer;
 }
 .h-right a#subscribe-top{
     width: 128px;
     height: 34px;
     padding: 10px 10px 10px 12px;
+    background-color: white;
+    color: #FF2210;
+    cursor: pointer;
 }
 /*==================================================================================
                                 Nav section 
@@ -59,20 +66,40 @@ nav{
     padding: 15px 160px 15px 0;
     
     border-bottom: 1px solid #ecf0f1;
+    background-color: white;
+}
+nav ul li{
+    
+    
 }
 nav ul li a{
     width: 120px;
     display: block;
-    height: 24;
+    height: 24px;
     text-align: center;
     font-weight: bold;
     font-family: "Roboto condensed", sans-serif;
-    font-size: 21px;
+    font-size: 20px;
+    line-height: 24px;
     color: black;
+    
      
 }
-
-
+nav ul li a:hover{
+    text-decoration: none;
+    color: #FF2210;
+}
+nav ul li a#us{
+    width: 96px;
+}
+nav ul li a#tech{
+    width: 189px;
+}
+nav input{
+    width: 70px;
+    
+    border: none;
+}
 /*==================================================================================
                                 section top
 
@@ -82,7 +109,7 @@ main{
     padding: 20.5px;
     margin: 0;
     padding: 0;
-      
+    background-color: white; 
   }
 #top{
     margin: 0;
@@ -94,11 +121,42 @@ main{
     height: 2549px;
     border: 1px solid gray;
 }
+.bigleft h6{
+    color: rbga(3,3,3,0.4);
+    padding: 0 0 11px;
+}
 .col1{
     width: 372.5px;
     padding: 0 15px;
     border: 1px solid lightcoral;
 }
+.left picture img{
+    width: 100%;
+}
+section h3 a{
+    font-size: 24px;
+    color: black;
+}
+section h3 a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+}
+article h3 a{
+    font-size: 24px;
+    color: black;
+}
+article h3 a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+
+}
+.bigleft p{
+    font-size: 14px;
+}
+
+
 .col2{
     width: 506px;
     height: 1696px;
