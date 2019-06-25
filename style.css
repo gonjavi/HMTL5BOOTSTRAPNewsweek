@@ -121,8 +121,8 @@ main{
 
 }
 .bigleft{
-    height: 2549px;
-    border: 1px solid gray;
+    height: 2515px;
+    
 }
 .bigleft h6{
     color: rgba(3,3,3,0.4);
@@ -215,7 +215,7 @@ article.more-stories div h6 a:hover{
     width: 29.4%;
     height: 2515px;
     padding: 0 15px 0;
-    border: 1px solid brown;
+    
 }
 
 
@@ -276,12 +276,20 @@ article.more-stories div h6 a:hover{
     margin: 0;
 
 }
+.two ul li{
+    padding: 10px 0;
+    border-bottom: 1px solid #555;
+
+}
+.two ul li#bottom{
+    border: none;
+}
 .two ul li .photo{
     width: 39%;
     height: 100.11px;
     padding: 0 0 10px;
     margin: 0;
-    border: 1px solid gray;
+    
 }
 
 .two ul li .photo picture{
@@ -289,12 +297,13 @@ article.more-stories div h6 a:hover{
     height: 90.11px;
 }
 .two ul li picture img{
-    width: 100%;
+    width: 95%;
     height: 90.11px;
 }
 .two ul li div.info2 {
     width: 61%;
     height: 90.11px;
+    padding: 0 10px;
 }
 .two ul li div.info2 a.title{
     
@@ -307,10 +316,88 @@ article.more-stories div h6 a:hover{
 }
 .two ul li div.info2 a.title:hover{
     text-decoration: none;
+   
     color: #FF2210;
 }
+/* sponsored insight*/
 .three{
+    width: 100%;
+    height: 604px;
+    
 
+
+}
+.three .sponsored{
+    width: 100%;
+    height: 441px;
+    padding-bottom: 30px;
+    
+
+}
+.three .sponsored a img{
+    width: 100%;
+    height: 227px;
+    border: 1px solid lightgray;
+}
+.three .sponsored div.career-info{
+    width: 100%;
+    height: 184px;
+    padding: 20px;
+    margin: 0;
+    border: 1px solid lightgray;
+}
+.three .sponsored div.career-info h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+.three .sponsored div.career-info p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.three .signup{
+    width: 88%;
+    height: 163px;
+    padding: 20px;
+    margin: 0 20.59px 30px;
+    background-color: #f4f5f6;
+    border: 1px solid lightgray;
+}
+
+.icon-n{
+    
+    width: 29px;
+    height: 28px;
+    padding: 0;
+    margin-right: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 1300;
+    line-height: 28px;
+    vertical-align: middle;
+    color: white;
+    background-color: #f72210;
+    
+}
+.three .signup a#signupb{
+    width: 100px;
+    height: 38px;
+    padding: 10px 10px 10px 12px;
+    margin: 0 0 12px;
+    background: #666666;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    vertical-align: middle;
+
+}
+#update{
+    font-weight: bold;
 }
 /*==================================================================================
                                 second
