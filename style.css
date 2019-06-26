@@ -105,14 +105,14 @@ nav input{
 
 ==================================================================================*/
 main{
-    height: 8091px;
+    height: 8140px;
     
     margin: 0;
     padding: 0;
     background-color: white; 
   }
   main.container-fluid{
-      padding:0;
+      padding: 20px 15px 0;
   }
 #top{
     margin: 0;
@@ -406,14 +406,15 @@ article.more-stories div h6 a:hover{
                                 second
 
 ==================================================================================*/
-.second{
+section.row.second.container-fluid{
     height:448px;
-    margin-top: 15px;
+    margin: 0;
+    padding: 0;
     
 }
 
 .second .photo-left{
-    width: 320px;
+    width: 24%;
     height: 425px;
     padding: 0 15px;
     
@@ -440,11 +441,15 @@ article.more-stories div h6 a:hover{
 
 
 .second .title-photo{
-    width: 73%;
+    width: 76%;
     height: 447px;
-    padding: 0 15px;
+    padding: 0 0 0 0;
     text-align: center;
     
+}
+div.tres{
+    width: 100%;
+    margin: 0;
 }
 .titlep{
     margin: 0 0 12px;
@@ -456,7 +461,7 @@ article.more-stories div h6 a:hover{
 
 }
 .second .title-photo .photos33{
-    width: 319.98px;
+    width: 319px;
     height: 395.98px;
     padding: 0 15px;
    
@@ -518,9 +523,9 @@ article.more-stories div h6 a:hover{
 
 ==================================================================================*/
 
-.third{
+section.third{
     height: 426px;
-    padding: 30px 15px 0;
+    padding: 0;
     margin: 0;
    
 }
@@ -586,18 +591,28 @@ article.more-stories div h6 a:hover{
                               fourth
 
 ==================================================================================*/
-
-.fourth{
+section.edi-picks {
+    width: 100%;
+    height: 45px;
+    padding: 5px 0;
+    margin: 10px 0;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+    
+}
+section.fourth{
    
     height: 820px;
-    border: 1px solid blue;
+    margin: 0;
+    padding: 0;
+    
 
 }
 .photos8{
     width: 320px;
     height: 405px;
     padding: 0 15px;
-    border: 1px solid brown;
+    
 }
 
 .photos8 picture{
@@ -632,37 +647,138 @@ article.more-stories div h6 a:hover{
                               fifth
 
 ==================================================================================*/
-.fifth{
+section.fifth{
     height: 813px;
-    border: 1px solid brown;
+    /*border: 1px solid brown;*/
+    padding: 0;
+    margin: 0;
 }
 
 .photos3{
     width: 426px;
     height: 378px;
     padding: 0 15px 40px;
-    border: 1px solid brown;
+    /*border: 1px solid brown;*/
 }
-
+.photos3 picture{
+    width: 100%;
+    height: 264px;
+}
+.photos3 picture img{
+    width: 100%;
+    height: 264px;
+}
+.photos3 h3.subtitle{
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    text-align:left;
+    line-height: 20px;
+    color: black;
+    font-weight: bold;
+}
+.photos3 h3.subtitle:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+}
 /*==================================================================================
                               sixth
 
 ==================================================================================*/
-.sixth{
+section.sixth{
     
     height: 352px;
-    border: 1px solid brown;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid brown;*/
 }
 
 .photos2{
     width: 426px;
     height: 343.7px;
-    border: 1px solid brown;
+    padding: 0 15px;
+    /*border: 1px solid brown;*/
 }
 
+.red-title h3{
+    color: #FF2210;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    border-top: 1px solid lightgray;
+    padding: 25px 0 11px 15px;
+}
+.photos2 picture{
+    width: 100%;
+    height: 264.77px;
+}
+.photos2 picture img{
+    width: 100%;
+    height: 264.77px;
+}
+.photos2 h3.subtitle{
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    text-align:left;
+    line-height: 20px;
+    color: black;
+    font-weight: bold;
+}
+.photos2 h3.subtitle:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+}
+.sixth .side ul {
+    margin: 0;
+    padding: 0;
+}
+.sixth .side ul li.first{
+    padding: 0 0 15px;
+    height: 100px;
+    border: none;
+}
+.sixth .side ul li{
+    width: 100%;
+    height: 111px;
+    padding: 10px 0;
+    margin: 0;
+    border-top: 1px solid lightgray;
+}
+.sixth .side ul li picture{
+    width: 135px;
+    height: 100px;
+    margin-right: 15px;
+}
+.sixth .side ul li picture img{
+    width: 135px;
+    height: 90px;
+    
+}
+.sixth .side ul li div{
+    width: 244px;
+    
+}
+.sixth .photos2 ul li div a{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
 
+}
+.sixth .photos2 ul li div a:hover{
+    color: #FF2210;
+    text-decoration: none;
 
-
+}
 /*==================================================================================
                               subscribe
 
