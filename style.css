@@ -32,12 +32,13 @@ header{
     height: 70px;
 }
 .h-left{
-    bottom: 0;
+    padding-top: 35px;
     left: 0;
     height: 34px;
     color: white;
 }
 .h-right{
+    padding-top: 35px;
     text-align: right;
     height: 34px;
     color: white;
@@ -239,7 +240,7 @@ article.more-stories div h6 a:hover{
 }
 .right .image-head {
     width: 18%;
-    height: 63;
+    height: 63px;
 }
 .right .image-head img{
     width: 100%;
@@ -376,7 +377,7 @@ article.more-stories div h6 a:hover{
     margin-left: 20px;
     text-align: center;
     font-size: 25px;
-    font-weight: 1300;
+    font-weight: 800;
     line-height: 28px;
     vertical-align: middle;
     color: white;
@@ -411,6 +412,10 @@ section.row.second.container-fluid{
     margin: 0;
     padding: 0;
     
+}
+.second h2,
+.second h6{
+    display:none;
 }
 
 .second .photo-left{
@@ -485,7 +490,7 @@ div.tres{
 }
 .photos33 .cover .red{
     display: block;
-    width: 58.58px;
+    width: 80px;
     height: 26px;
     background-color: red;
     color: white;
@@ -529,6 +534,10 @@ section.third{
     margin: 0;
    
 }
+.third h2,
+.third h6{
+    display:none;
+}
 .fourphotos{
     width: 320px;
     height: 376px;
@@ -544,7 +553,10 @@ section.third{
     width: 100%;
     height: 290px;
 }
-
+.fourphotos picture img#last{
+    height:319px;
+    margin-bottom: 15px;
+}
 .fourphotos .cover{
     width: 100%;
     height: 26px;
@@ -608,6 +620,10 @@ section.fourth{
     
 
 }
+.fourth h2,
+.fourth h6{
+    display:none;
+}
 .photos8{
     width: 320px;
     height: 405px;
@@ -627,7 +643,7 @@ section.fourth{
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.photos8 h3.subtitle{
+.photos8 h3.subtitle a{
     display: block;
     width: 100%;
     padding: 0;
@@ -638,7 +654,7 @@ section.fourth{
     color: black;
     font-weight: bold;
 }
-.photos8 h3.subtitle:hover{
+.photos8 h3.subtitle a:hover{
     text-decoration: underline;
     text-decoration-color: #FF2210;
     color: black;
@@ -653,7 +669,10 @@ section.fifth{
     padding: 0;
     margin: 0;
 }
-
+.fifth h2,
+.fifth h6{
+    display: none;
+}
 .photos3{
     width: 426px;
     height: 378px;
@@ -668,7 +687,7 @@ section.fifth{
     width: 100%;
     height: 264px;
 }
-.photos3 h3.subtitle{
+.photos3 h3.subtitle a{
     display: block;
     width: 100%;
     padding: 0;
@@ -680,7 +699,7 @@ section.fifth{
     color: black;
     font-weight: bold;
 }
-.photos3 h3.subtitle:hover{
+.photos3 h3.subtitle a:hover{
     text-decoration: underline;
     text-decoration-color: #FF2210;
     color: black;
@@ -696,7 +715,10 @@ section.sixth{
     padding: 0;
     /*border: 1px solid brown;*/
 }
-
+.sixth h2,
+.sixth h6{
+    display: none;
+}
 .photos2{
     width: 426px;
     height: 343.7px;
@@ -720,7 +742,7 @@ section.sixth{
     width: 100%;
     height: 264.77px;
 }
-.photos2 h3.subtitle{
+.photos2 h3.subtitle a{
     display: block;
     width: 100%;
     padding: 0;
@@ -732,7 +754,7 @@ section.sixth{
     color: black;
     font-weight: bold;
 }
-.photos2 h3.subtitle:hover{
+.photos2 h3.subtitle a:hover{
     text-decoration: underline;
     text-decoration-color: #FF2210;
     color: black;
@@ -790,7 +812,7 @@ section.sixth{
     padding: 40px 0 0;
     
 }
-
+.subscribe h2 {display:none;}
 
 .subscribe h3{
     margin: 0;
@@ -882,7 +904,7 @@ section.sixth{
                               footer
 
 ==================================================================================*/
-footer{
+footer.container-fluid{
     height: 198px;
     padding: 30px;
     border-top: 2px solid #ecf0f1;
@@ -893,9 +915,13 @@ footer .top{
 }
 footer .top p{
     margin:0;
+    padding-top:15px;
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: #666666;
+}
+footer .top a{
+    color: gray;
 }
 footer img{
     width: 236px;
@@ -909,14 +935,15 @@ footer .top i{
 }
 footer div.bottom{
     height: 81px;
+    padding-top: 6px;
 }
-.bleft{
+.b-left{
     width:681px;
     height:81px;
-}
-footer .bottom ul{
     
-
+}
+.bottom .b-left ul#izq{
+    padding-left: 15px;
 }
 footer .bottom ul li{
     margin: 6px 10px 6px 0;
@@ -938,7 +965,18 @@ footer .bottom ul li a:hover{
     color: #333;
 }
 
-.bottom .b-right{
+footer .bottom .b-right{
     width: 40%;
     height: 54px;
+    margin-left: 100px;
+    padding: 0  15px;
+}
+footer .bottom .b-right ul{
+    width: 301px;
+    height: 54px;
+    padding-left: 40px;
+}
+footer .bottom .b-right ul li a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
