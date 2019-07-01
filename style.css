@@ -54,14 +54,14 @@ nav header .logo img{
     height: 34px;
     color: white;
 }
-.h-right a#sign-in{
+.h-right a.sign-in{
     
     width: 80px;
     height:34px;
     padding: 10px 12px;
     cursor: pointer;
 }
-.h-right a#subscribe-top{
+.h-right a.subscribe-top{
     width: 128px;
     height: 25px;
     padding: 5px 10px 5px 12px;
@@ -174,14 +174,14 @@ div.nav-hidden{
     color: white;
     
 }
-.h-right2 a#sign-in{
+.h-right2 a.sign-in{
     
     width: 80px;
     height:34px;
     padding: 10px 12px;
     cursor: pointer;
 }
-.h-right2 a#subscribe-top{
+.h-right2 a.subscribe-top{
     width: 128px;
     height: 25px;
     padding: 5px 10px 5px 12px;
@@ -335,7 +335,9 @@ article.more-stories div h6 a:hover{
     padding: 10px 0;
     border-top: 1px solid #555;
 }
-
+.one h2{
+    display:none;
+}
     
 .right .image-head {
     width: 63px;
@@ -381,6 +383,7 @@ article.more-stories div h6 a:hover{
     height: auto;
 
 }
+.two h2{display:none;}
 .two article#bottom{
     border: none;
 }
