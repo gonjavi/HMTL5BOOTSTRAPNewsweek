@@ -1,18 +1,1076 @@
 *{
     list-style: none;
+    text-decoration: none;
 
 }
 body{
     z-index: -1;
-    background-color: gray;
+    background-color: rgb(226, 218, 218);
 
 }
 .frame{
+    
+    z-index: 1;
     height: 7234.5px;
+    background-color: #f4f5f6;
+}
+/*==================================================================================
+                               NAVBAR SECTION 
+
+==================================================================================*/
+@media(min-width: 992px){
+nav{
+    height: 150px;
+    padding: 0;
+    
+    border-bottom: 1px solid #ecf0f1;
+    background-color: white;
+    
 }
 header{
+    position: relative;
     z-index: 1;
     height: 95px;
     padding: 20px 10px 15px;
     background-color: #FF2210;
+}
+
+.logo{
+    height: 90px; 
+}
+nav header .logo img{
+    width: 70%;
+    height: 70px;
+}
+.h-left{
+    padding-top: 35px;
+    left: 0;
+    height: 34px;
+    color: white;
+}
+.h-right{
+    padding-top: 35px;
+    text-align: right;
+    height: 34px;
+    color: white;
+}
+nav header .h-right a.sign-in{
+    
+    width: 80px;
+    height:34px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+.h-right a#subscribe-top{
+    width: 128px;
+    height: 25px;
+    padding: 5px 10px 5px 12px;
+    background-color: white;
+    color: #FF2210;
+    cursor: pointer;
+}
+
+nav ul{
+    padding-top:8px;
+}
+nav ul li {
+    width:9.6%; 
+}
+nav ul li.tech{
+    width:15%;
+   
+}
+nav ul li a{
+    width: 100%;
+    display: block;
+    height: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Roboto condensed", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    
+     
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: #FF2210;
+}
+nav ul li a#us{
+    width: 100%;
+}
+nav ul li a#tech{
+    width: 100%;
+}
+nav ul li.search {
+    width:90px;
+    
+    border: none;
+}
+nav ul li  input{
+    width:65px;
+    border: none;
+    font-size:15px;
+}
+}
+@media(max-width: 991px){
+    div.nav-hidden{
+   
+        position: fixed; /* Make it stick/fixed */
+        top: 0 !important; 
+        
+        z-index: 1;
+        width:  100%;
+        height: 40px;
+        
+        background-color: #FF2210;
+       
+        
+    }
+    nav header .logo img{
+        display: none;
+    }
+    nav ul li  input{
+        display: none;
+    }
+    nav ul{
+        display:none;
+    }
+    nav ul li { display:none;}
+    
+    .h-left{ display:none;}
+
+    
+}
+/*==================================================================================
+                                Nav hidden
+
+==================================================================================*/
+
+div.nav-hidden{
+   
+    position: fixed; /* Make it stick/fixed */
+    top: -50px; 
+    padding:0;
+    padding-right:10px;
+    z-index: 1;
+    width:  100%;
+    height: 40px;
+    
+    background-color: #FF2210;
+   
+    
+}
+
+
+.logo1{
+    height: 35px;
+    padding-left:10px;
+    
+}
+.logo1 img{
+    width: 142px;
+    height: 40px;
+}
+.h-right2{
+    padding-top: 10px;
+    text-align: right;
+    height: 34px;
+    color: white;
+    
+}
+.h-right2 a.sign-in{
+    
+    width: 70px;
+    height:34px;
+    padding: 10px 6px;
+    font-weight: 800;
+    font-size: 14px;
+    cursor: pointer;
+}
+.h-right2 a#subscribe-top2{
+    width: 128px;
+    height: 25px;
+    padding: 5px 10px 5px 12px;
+    background-color: white;
+    color: #FF2210;
+    cursor: pointer;
+    font-size: 12px;
+}
+.h-right2 span{
+    width: 50px;
+    height: 35px;
+    padding-right:10px;
+} 
+.h-right2 span i{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    
+}
+
+/*==================================================================================
+                                section top
+
+==================================================================================*/
+main{
+    height: auto;
+    
+    margin: 0;
+    padding: 0;
+    padding-right:-15px;
+    background-color: white; 
+  }
+  main.container-fluid{
+      padding: 20px 0 0 15px;
+  }
+#top{
+    margin: 0;
+    padding: 0;
+    height: auto;
+   
+
+}
+.left h6,
+.middle h6{
+    color: rgba(3,3,3,0.4);
+    padding: 0 0 11px;
+}
+.col1{
+    
+    padding: 0 15px;
+    
+}
+.col1 picture img,
+.col2 picture img{
+    width: 100%;
+}
+section h3 a{
+    font-size: 24px;
+    color: black;
+}
+section h3 a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+}
+article h3 a{
+    font-size: 24px;
+    color: black;
+}
+article h3 a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+
+}
+.col1 p,
+.col2 p{
+    font-size: 14px;
+    color: #333;
+}
+
+/* columna dos  */
+.col2{
+    
+    height: auto;
+    padding: 0 15px;
+    
+}
+.middle h3{
+    font-weight: 700;
+}
+.middle{
+    height: auto;
+}
+.middle-down{
+    
+    height: auto;
+    padding: 0 15px;
+}
+article.more-stories{
+    width: 100%;
+    padding: 14px 0;
+    border-top: 1px solid #ddd;
+    
+}
+article.more-stories picture{
+    width: 26.6%;
+}
+article.more-stories img{
+    width: 100%;
+    height: 90px;
+    
+}
+article.more-stories div{
+    width: 69%;
+    margin-left: 15px;
+}
+article.more-stories div h6{
+    margin: 0;
+    padding: 0 0 15px;
+}
+article.more-stories div h6 a{
+    
+    color: black;
+    font-weight: 700;
+}
+article.more-stories div h6 a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+    
+}
+/* columna tres*/
+.col3{
+    
+    height: auto;
+    padding: 0 15px 0;
+    
+}
+
+
+.right .one article#top{
+    border: none;
+    width: 100%;
+    height: 88px;
+    margin: 0;
+    padding: 0 0 10px;
+}
+
+.right .one article{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 10px 0;
+    border-top: 1px solid #555;
+}
+.one h2{
+    display:none;
+}
+    
+.right .image-head {
+    width: 63px;
+    height: 63px;
+}
+.right .image-head img{
+    width: 100%;
+}
+/*letras a la derecha*/
+.right .info{
+  width: 80%;
+  
+    padding-left: 15px;
+}
+.right .info a.title{
+    font-size: 14px;
+    font-family: "Roboto condensed", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    color: black;    
+    line-height: 7px;
+
+}
+
+.right .info a.title:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+}
+.right .info a.author{
+    font-size: 14px;
+    font-family: "Roboto condensed", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    color: #555;   
+}
+
+/*  latest news section */
+
+.two article{
+    padding: 10px 0;
+    border-bottom: 1px solid #555;
+    height: auto;
+
+}
+.two h2{display:none;}
+.two article#bottom{
+    border: none;
+}
+.two article .photo{
+    width: 135px;
+    height: 90px;
+    padding: 0 0 10px;
+    margin: 0;
+    
+}
+
+.two article .photo picture{
+    width: 100%;
+    height: 90.11px;
+}
+.two article picture img{
+    width: 95%;
+    height: 90.11px;
+}
+.two article div.info2 {
+    width: 61%;
+    height: auto;
+    padding: 0 10px;
+}
+.two article div.info2 a.title{
+    
+    height: 90.11px;
+    font-size: 14px;
+    font-family: "Roboto condensed", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    color: black; 
+}
+.two article div.info2 a.title:hover{
+    text-decoration: none;
+   
+    color: #FF2210;
+}
+/* sponsored insight*/
+.three{
+    width: 100%;
+    height: auto;
+    
+
+
+}
+.three .sponsored{
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+    
+
+}
+.three .sponsored a img{
+    width: 100%;
+    height: 227px;
+    border: 1px solid lightgray;
+}
+.three .sponsored div.career-info{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    margin-bottom:  30px;
+    border: 1px solid lightgray;
+}
+.three .sponsored div.career-info h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+.three .sponsored div.career-info p{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+.three .signup{
+    width: 88%;
+    height: auto;
+    padding: 20px;
+    margin: 0 20.59px 30px;
+    background-color: #f4f5f6;
+    border: 1px solid lightgray;
+}
+
+.icon-n{
+    
+    width: 34px;
+    height: 28px;
+    padding: 0;
+    margin-right: 10px;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 28px;
+    vertical-align: middle;
+    color: white;
+    background-color: #f72210;
+    
+}
+.three .signup a#signupb{
+    width: 100px;
+    height: 38px;
+    padding: 10px 10px 10px 12px;
+    margin: 0 0 12px;
+    background: #666666;
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    line-height: 23px;
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+#update{
+    font-weight: bold;
+}
+/*==================================================================================
+                                second in the magazine
+
+==================================================================================*/
+section.second{
+    height:auto;
+    margin-bottom: 20px;
+    padding: 0;
+    
+}
+.second h2,
+.second h6{
+    display:none;
+}
+
+.second .photo-left{
+    
+    height: 425px;
+    padding: 0 15px;
+    
+}
+.second .photo-left picture img{
+    width: 100%;
+    height: 387px;
+}
+.second .photo-left a{
+    width: 100%;
+    height: 38px;
+    padding: 10px 10px 10px 12px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    text-align:center;
+    color: black;
+    font-weight: bold;
+    background-color: #f4f5f6;
+}
+.second .photo-left a:hover{
+    background-color: lightgray;
+    text-decoration:none;
+}
+
+
+
+.titlep{
+    margin: 0 0 12px;
+    margin: 0 0 8px;
+}
+.photos33 h3{
+    font-size: 19px;
+    font-weight: bold;
+
+}
+.second .photos33{
+    
+    height: 395.98px;
+    padding: 0 15px;
+   
+}
+
+.second .photos33 picture{
+   
+    height: 289px;
+}
+.photos33 picture img{
+    width: 100%;
+    height: auto;
+}
+
+.photos33 .cover{
+    width: 100%;
+    height: 26px;
+    margin: 10px 0;
+    padding: 0;
+
+}
+.photos33 .cover .red{
+    display: block;
+    width: 80px;
+    height: 26px;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+}
+.photos33 .cover .white{
+    display: block;
+    color: red;
+    margin-left: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+}
+.second .photos33 a.subtitle{
+    display: block;
+    width: 100%;
+    
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    text-align:left;
+    
+    color: black;
+    font-weight: bold;
+}
+.second .photos33 a.subtitle:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+}
+/*==================================================================================
+                                in the maganize b
+
+==================================================================================*/
+
+
+.fourphotos{
+    
+    height: auto;
+    padding: 0 15px;
+    
+
+}
+.fourphotos picture{
+    width: 100%;
+    height: 290px;
+}
+.fourphotos picture img{
+    width: 100%;
+    height: 290px;
+}
+.fourphotos picture img#last{
+    height:319px;
+    margin-bottom: 15px;
+}
+.fourphotos .cover{
+    width: 100%;
+    height: 26px;
+    margin: 10px 0;
+    padding: 0;
+
+}
+.fourphotos .cover .red{
+    display: block;
+    width: 95.58px;
+    height: 26px;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+}
+.fourphotos .cover .white{
+    display: block;
+    color: red;
+    margin-left: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+}
+.fourphotos a.subtitle{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    text-align:left;
+    line-height: 20px;
+    color: black;
+    font-weight: bold;
+}
+.fourphotos a.subtitle:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+}
+/*==================================================================================
+                             Edi picks
+==================================================================================*/
+.edi-picks {
+    width: 100%;
+    height: 45px;
+    padding: 5px 0;
+    margin: 10px 0;
+    justify-content: center;
+    border-bottom: 1px solid lightgray;
+    
+}
+section.fourth{
+   
+    height: auto;
+    margin: 0;
+    padding: 0;
+    
+
+}
+.fourth h2,
+.fourth h6{
+    display:none;
+}
+.photos8{
+    width: 320px;
+    height: 405px;
+    padding: 0 15px;
+    
+}
+
+.photos8 picture{
+    width: 100%;
+    height: 193.5px;
+}
+.photos8 picture img{
+    width: 100%;
+    height: 193.5px;
+}
+.photos8 p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.photos8 h3.subtitle a{
+    display: block;
+    width: 100%;
+    padding: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    text-align:left;
+    line-height: 20px;
+    color: black;
+    font-weight: bold;
+}
+.photos8 h3.subtitle a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+}
+/*==================================================================================
+                             SECTION FEATURED SLIDESHOWS*
+
+==================================================================================*/
+section.fifth{
+    height: auto;
+    /*border: 1px solid brown;*/
+    padding: 0;
+    margin: 0;
+}
+.fifth h2,
+.fifth h6{
+    display: none;
+}
+.photos3{
+    width: 426px;
+    height: 378px;
+    padding: 0 15px 40px;
+    /*border: 1px solid brown;*/
+}
+.photos3 picture{
+    width: 100%;
+    height: 264px;
+}
+.photos3 picture img{
+    width: 100%;
+    height: 264px;
+}
+.photos3 h3.subtitle a{
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-top: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    text-align:left;
+    line-height: 20px;
+    color: black;
+    font-weight: bold;
+}
+.photos3 h3.subtitle a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+}
+/*==================================================================================
+                             US SECTION
+
+==================================================================================*/
+section.sixth{
+    
+    height: auto;
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid brown;*/
+}
+.sixth h2,
+.sixth h6{
+    display: none;
+}
+.photos2{
+    
+    height: 343.7px;
+    padding: 0 15px;
+    /*border: 1px solid brown;*/
+}
+
+.red-title h3{
+    color: #FF2210;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bold;
+    border-top: 1px solid lightgray;
+    padding: 25px 0 11px 15px;
+}
+.photos2 picture{
+    width: 100%;
+    height: 264.77px;
+}
+.photos2 picture img{
+    width: 100%;
+    height: 264.77px;
+}
+.photos2 h3.subtitle a{
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin-top: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    text-align:left;
+    line-height: 20px;
+    color: black;
+    font-weight: bold;
+}
+.photos2 h3.subtitle a:hover{
+    text-decoration: underline;
+    text-decoration-color: #FF2210;
+    color: black;
+}
+.sixth .side ul {
+    margin: 0;
+    padding: 0;
+}
+.sixth .side ul li.first{
+    padding: 0 0 15px;
+    height: 100px;
+    border: none;
+}
+.sixth .side ul li{
+    width: 100%;
+    height: 111px;
+    padding: 10px 0;
+    margin: 0;
+    border-top: 1px solid lightgray;
+}
+.sixth .side ul li picture{
+    width: 135px;
+    height: 100px;
+    margin-right: 15px;
+}
+.sixth .side ul li picture img{
+    width: 135px;
+    height: 90px;
+    
+}
+.sixth .side ul li div{
+    width: 244px;
+    
+}
+.sixth .photos2 ul li div a{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 0.5pt;
+    color: black;
+
+}
+.sixth .photos2 ul li div a:hover{
+    color: #FF2210;
+    text-decoration: none;
+
+}
+/*==================================================================================
+                              subscribe
+
+==================================================================================*/
+.subscribe{
+    height: auto;
+    border-top: 1px solid lightgray;
+    padding: 40px 0 0;
+    
+}
+.subscribe h2 {display:none;}
+
+.subscribe h3{
+    margin: 0;
+    padding: 0 0 11px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #FF2210;
+}
+.subscribe .left .left1{
+    height: auto;
+    padding: 30px;
+    background-color: #f4f5f6;
+    
+}
+
+.image{
+    position: relative;
+    width: 260px;
+    height: 241px;
+    padding: 0 90px 13px 0;
+    margin: 0;
+}
+.image img#uno{
+    z-index: 1;
+    width: 170px;
+    height: 227px;
+}
+.image img#dos{
+    position: absolute;
+    top: 14px;
+    left: 90px;
+    z-index: 2;
+    width: 170px;
+    height: 227px;
+
+
+}
+.infor{
+    padding: 0 0 0 30px;
+}
+.infor h3{
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-bottom: 15px;
+    color: black;
+}
+.infor p{
+    font-size: 15px;
+    color: #333;
+    margin: 0 0 25px;
+}
+.subscribe .right .newsletter2{
+
+    height: auto;
+    padding: 0;
+    margin-bottom: 40px;
+    
+}
+.subscribe .right .newsletter2 .right1{
+    width: 190px;
+    height: auto;
+    margin:0;
+    padding:0;
+    background: url("https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif");
+}
+.subscribe .right .newsletter2 .right2{
+    width: 206px;
+    padding: 30px;
+    border: 1px solid lightgray;
+}
+.subscribe .right .newsletter2 .right2 h3{
+    font-size: 22px;
+    font-family: sans-serif;
+    color: black;
+}
+/*  for both red buttoms*/
+.subscribe  a{
+    
+    width: 80px;
+    height:34px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+/*==================================================================================
+                              footer
+
+==================================================================================*/
+footer.container-fluid{
+    height: auto;
+    padding: 30px;
+    border-top: 2px solid #ecf0f1;
+}
+footer .top{
+    border-bottom: 1px solid #ecf0f1;
+
+}
+footer .top p{
+    margin:0;
+    padding-top:15px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666666;
+}
+footer .top a{
+    color: gray;
+}
+footer img{
+    width: 236px;
+    height: 35px;
+    
+}
+footer .top i{
+    width:26px;
+    height:26px;
+
+}
+footer div.bottom{
+    height: auto;
+    padding-top: 6px;
+}
+.b-left{
+   
+    height:81px;
+    
+}
+.bottom .b-left ul#izq{
+    padding-left: 15px;
+}
+footer .bottom ul li{
+    margin: 6px 10px 6px 0;
+    padding-right: 10px;
+    height: 15px;
+    border-right: 1px solid #555;
+}
+footer .bottom ul li a{
+    display: block;
+    height: 15px;
+    font-size: 12px;
+    font-family: Arial,Arial, Helvetica, sans-serif;
+    color: #666666;
+    
+
+}
+footer .bottom ul li a:hover{
+    text-decoration:none;
+    color: #333;
+}
+
+footer .bottom .b-right{
+    
+    height: 54px;
+    
+    padding: 0  15px;
+}
+footer .bottom .b-right ul{
+    width: 301px;
+    height: 54px;
+    padding-left: 40px;
+}
+footer .bottom .b-right ul li a{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
