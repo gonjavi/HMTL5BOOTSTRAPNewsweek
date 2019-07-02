@@ -54,14 +54,14 @@ nav header .logo img{
     height: 34px;
     color: white;
 }
-.h-right a.sign-in{
+nav header .h-right a.sign-in{
     
     width: 80px;
     height:34px;
     padding: 10px 12px;
     cursor: pointer;
 }
-.h-right a.subscribe-top{
+.h-right a#subscribe-top{
     width: 128px;
     height: 25px;
     padding: 5px 10px 5px 12px;
@@ -138,8 +138,10 @@ nav ul li  input{
         display:none;
     }
     nav ul li { display:none;}
-    .h-right,
+    
     .h-left{ display:none;}
+
+    
 }
 /*==================================================================================
                                 Nav hidden
@@ -179,15 +181,18 @@ div.nav-hidden{
     width: 80px;
     height:34px;
     padding: 10px 12px;
+    font-weight: 800;
+    font-size: 14px;
     cursor: pointer;
 }
-.h-right2 a.subscribe-top{
+.h-right2 a#subscribe-top2{
     width: 128px;
     height: 25px;
     padding: 5px 10px 5px 12px;
     background-color: white;
     color: #FF2210;
     cursor: pointer;
+    font-size: 12px;
 }
 .h-right2 span{
     width: 50px;
