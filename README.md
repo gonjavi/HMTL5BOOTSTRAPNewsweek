@@ -1,14 +1,43 @@
-# newsweek
+# Newsweek Website
 
-<h1><b>Project: using Bootstrap</b></h1>
-This project is based on <a href="https://www.newsweek.com/">Newsweek site</a> 
-
-<h1><b> Author:</b></h1>
-<a href="https://github.com/gonjavi/">Gonzalo Javier Mancilla</a>
+This project is based on <a href="https://www.newsweek.com/">Newsweek site</a>, it was bult using bootstrap framework. 
 
 
+![screenshot](./newsweek.png)
 
-<h1><a href="https://gonjavi.github.io/newsweek/">Link of the live version </a></h1> 
+
+## Built With
+
+- HTML5
+- Bootstrap 4.3.1
+
+## Author
+
+👤 **Gonza Javier Mancilla**
+
+- Github: [@github/gonjavi](https://github.com/gonjavi)
+- Linkedin: [linkedin](https://www.linkedin.com/in/g-javier-mancilla-a686a9178/)
+
+## Live Demo
+
+[Live Demo Link](https://gonjavi.github.io/newsweek/)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
+
+
 
 
 
