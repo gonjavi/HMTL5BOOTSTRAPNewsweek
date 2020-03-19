@@ -1,6 +1,6 @@
 # Newsweek Website
 
-This project is based on <a href="https://www.newsweek.com/">Newsweek site</a>, it was bult using bootstrap framework. 
+This project is based on <a href="https://www.newsweek.com/">Newsweek site</a>, it was built using bootstrap framework. 
 
 
 ![screenshot](./newsweek.png)
