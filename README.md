@@ -3,7 +3,7 @@
 This project is based on <a href="https://www.newsweek.com/">Newsweek site</a>, it was built using bootstrap framework. 
 
 
-![screenshot](./newsweek.png)
+![screenshot](./img/newsweek.png)
 
 
 ## Built With
@@ -20,7 +20,7 @@ This project is based on <a href="https://www.newsweek.com/">Newsweek site</a>, 
 
 ## Live Demo
 
-[Live Demo Link](https://gonjavi.github.io/newsweek/)
+[Live Demo Link](https://gonjavi.github.io/HMTL5BOOTSTRAPNewsweek/)
 
 
 ## 🤝 Contributing
